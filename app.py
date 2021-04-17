@@ -1,4 +1,5 @@
 import streamlit as st
+import sklearn
 import joblib
 model = joblib.load('Review_Class')
 st.title('Review Classifier')
